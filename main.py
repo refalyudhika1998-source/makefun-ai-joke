@@ -3,7 +3,8 @@
 
 Writes one one-liner joke about AI coding agents to /output/entry.txt.
 Python 3.13, standard library only, no network, fully deterministic:
-every run writes exactly the same bytes.
+every run writes exactly the same bytes. The joke is a single line with
+no trailing newline, so two runs are byte-identical.
 """
 
 import os
